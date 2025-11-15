@@ -1,6 +1,7 @@
 #ifndef CLOTHING_H
 #define CLOTHING_H
 #include "Product.h"
+#include <string>
 
 class Clothing : public Product {
 public:
@@ -14,4 +15,7 @@ public:
 private:
     std::string m_size;
 };
+
 #endif
+
+
